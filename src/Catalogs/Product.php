@@ -23,6 +23,6 @@ class Product extends PaypalServices
 
     public function update(array $data, $id)
     {
-        return $this->patch("{$this->baseUrl}/v1/catalogs/products/{$id}", $data);
+        $this->patch("{$this->baseUrl}/v1/catalogs/products/{$id}", $data);
     }
 }

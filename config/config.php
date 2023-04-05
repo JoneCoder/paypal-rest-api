@@ -7,5 +7,5 @@ return [
     'secret' => env('PAYPAL_CLIENT_SECRET', null),
 
 
-    'url' => env('PAYPAL_REST_URL', null),
+    'EndPoint' => env('PAYPAL_REST_ENDPOINT', null),
 ];
