@@ -1,0 +1,28 @@
+{
+    "name": "jonecoder/paypal-rest-api",
+    "version": "1.0.0",
+    "description": "Laravel wrapper package for the paypal API",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jonecoder\\PaypalRestApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jonecoder"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Jonecoder\\PaypalRestApi\\PaypalRestApiServiceProvider"
+            ]
+        }
+    }
+}
